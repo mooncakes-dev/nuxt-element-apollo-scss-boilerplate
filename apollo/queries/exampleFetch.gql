@@ -1,0 +1,9 @@
+query Examples {
+  examples {
+    id
+    title
+    category {
+      name
+    }
+  }
+}
